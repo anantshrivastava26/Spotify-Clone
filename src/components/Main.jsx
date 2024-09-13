@@ -26,7 +26,7 @@ function Main() {
       {/* Main content */}
       <div className="relative z-10 flex row">
         <div className="lft  pt-2  h-[80vh] mr-10 opacity-85  bg-zinc-800 rounded-3xl w-72">
-          <img src='nobglgo.png' alt="Logo" className='h-12 w-12 ml-28 mt-2 mb-5'/>
+          <img src='/assets/nobglgo.png' alt="Logo" className='h-12 w-12 ml-28 mt-2 mb-5'/>
           <div className="flex flex-col space-y-4">
              <div className="1 text-white mx-10 bg-zinc-900 rounded-xl  text-md pt-2 font-thin h-10">
              <HomeRoundedIcon className="text-white text-5xl mr-2 mb-1 ml-4 " />
@@ -45,7 +45,7 @@ function Main() {
               Liked Songs
              </div>
              <div className="5 h-48"> 
-                <img src='lft.jpeg' className='bg-contain h-40 w-40 mt-1 rounded-xl ml-14'/>
+                <img src='/assets/lft.jpeg' className='bg-contain h-40 w-40 mt-1 rounded-xl ml-14'/>
                 <p className='text-md  mt-2 font-thin text-white text-center'>Born To Die</p>
              </div>
              <div className="6 text-white mx-12  mr-16 pl-5 pt-8 flex flex-row space-x-5   ">
@@ -73,7 +73,7 @@ function Main() {
             </div>
             <div className="pfle flex flex-row pr-10">
             <button className='bg-gradient-to-r from-greenbg to-green-800 ml-5  rounded-3xl px-2 h-9 w-36 mt-5 text-xl  text-white font-semibold'>Premium</button>
-            <div className="icn bg-[url('icnlana.jpg')] bg-contain rounded-full h-11 w-11 mt-5 ml-5 flex items-center justify-center"></div>
+            <div className="icn bg-[url('/icnlana.jpg')] bg-contain rounded-full h-11 w-11 mt-5 ml-5 flex items-center justify-center"></div>
             </div>
           </div>
           <div className="bdy flex flex-row justify-between space-x-8 h-[67vh] ">
@@ -81,7 +81,7 @@ function Main() {
                        <p className='text-xl font-thin text-white ml-8 mt-5 mb-8 '>Queue</p>
                        <div className="sngs flex flex-col space-y-5">
                        <div className="1 flex flex-row text-white font-medium ml-8 hover:rounded-xl  hover:p-2 hover:bg-zinc-600 hover:opacity-60">
-                          <img src='s1.jpeg' className='h-14 w-14 rounded-lg '/>
+                          <img src='/assets/s1.jpeg' className='h-14 w-14 rounded-lg '/>
                           <div className="txt flex flex-col ml-5">
                           <p className='text-lg'>Honeymoon</p>
                           <p className='text-zinc-400 text-sm'>Lana Del Rey</p>
@@ -91,7 +91,7 @@ function Main() {
                        </div>
                        <div className="1">
                        <div className="1 flex flex-row text-white font-medium ml-8 hover:rounded-xl  hover:p-2 hover:bg-zinc-600 hover:opacity-60">
-                          <img src='s2.jpeg' className='h-14 w-14 rounded-lg '/>
+                          <img src='/assets/s2.jpeg' className='h-14 w-14 rounded-lg '/>
                           <div className="txt flex flex-col ml-5">
                           <p className='text-lg'>Die Mountain Dew</p>
                           <p className='text-zinc-400 text-sm'>Lana Del Rey</p>
@@ -102,7 +102,7 @@ function Main() {
                        </div>
                        <div className="1">
                        <div className="1 flex flex-row text-white font-medium ml-8 hover:rounded-xl  hover:p-2 hover:bg-zinc-600 hover:opacity-60">
-                          <img src='s3.jpeg' className='h-14 w-14 rounded-lg '/>
+                          <img src='/assets/s3.jpeg' className='h-14 w-14 rounded-lg '/>
                           <div className="txt flex flex-col ml-5">
                           <p className='text-lg'>Born To Die</p>
                           <p className='text-zinc-400 text-sm'>Lana Del Rey</p>
@@ -113,7 +113,7 @@ function Main() {
                        </div>
                        <div className="1">
                        <div className="1 flex flex-row text-white font-medium ml-8 hover:rounded-xl  hover:p-2 hover:bg-zinc-600 hover:opacity-60">
-                          <img src='s4.jpeg' className='h-14 w-14 rounded-lg '/>
+                          <img src='/assets/s4.jpeg' className='h-14 w-14 rounded-lg '/>
                           <div className="txt flex flex-col ml-5">
                           <p className='text-lg'>13 Beaches</p>
                           <p className='text-zinc-400 text-sm'>Lana Del Rey</p>
@@ -124,7 +124,7 @@ function Main() {
                        </div>
                        <div className="1">
                        <div className="1 flex flex-row text-white font-medium ml-8 hover:rounded-xl  hover:p-2 hover:bg-zinc-600 hover:opacity-60">
-                          <img src='s5.jpeg' className='h-14 w-14 rounded-lg '/>
+                          <img src='/assets/s5.jpeg' className='h-14 w-14 rounded-lg '/>
                           <div className="txt flex flex-col ml-5">
                           <p className='text-lg'>Summertime Sadness</p>
                           <p className='text-zinc-400 text-sm'>Lana Del Rey</p>
@@ -146,7 +146,7 @@ function Main() {
                     <p className='text-lg text-blue-900 font-medium '> Verified artist</p>
                     </div>
                     </div>
-                    <img src='cdlana.jpeg' className='h-20 w-20 ml-8 rounded-lg'/>
+                    <img src='/assets/cdlana.jpeg' className='h-20 w-20 ml-8 rounded-lg'/>
                     </div>
                     <p className='text-5xl font-bold tracking-[0.10em] text-blue-800 py-4 pb-5'>Lana Del Rey</p>
                     <div className="2 flex flex-row">
@@ -169,7 +169,7 @@ function Main() {
   <div className="relative flex flex-row justify-between items-center h-full">
     <div className="1">
         <div className="1 flex felx-row">
-        <img src='lana.jpeg' className='h-20 w-20 ml-5 rounded-xl'/>
+        <img src='/assets/lana.jpeg' className='h-20 w-20 ml-5 rounded-xl'/>
         <div className="txt mt-2">
         <p className='text-white font-thin ml-5'>Lana del rey</p>
         <p className='font-bold text-white ml-5 text-3xl'>West Coast</p>

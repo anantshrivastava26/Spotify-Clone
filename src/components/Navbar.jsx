@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className='Main flex pt-6 justify-between bg-black text-white h-full pb-20 flex-row'>
         <div className="lgo ml-16">
-           <img src='nobglgo.png' className='h-12 w-12'/>
+           <img src='./public/assets/nobglgo.png' className='h-12 w-12'/>
         </div>
         <div className="cnts space-x-10 mr-16 text-[25px] font-semibold text-zinc-400 flex flex-row">
            <p className='bg-blue-200 text-blue-700 rounded-2xl text-[20px] px-4 h-8'>Home</p>
