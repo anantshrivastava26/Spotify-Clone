@@ -11,7 +11,7 @@ import QueueMusicIcon from '@mui/icons-material/QueueMusic';
 function S2home() {
   return (
     
-   <div className="relative h-screen p-6 bg-[url('/plyst.jpg')] bg-cover bg-center ">
+   <div className="relative h-screen p-6 bg-[url('/assets/plyst.jpg')] bg-cover bg-center ">
   {/* Background image overlay to create opacity effect */}
   <div className="absolute inset-0 bg-gradient-to-b from-blue-200 via-blue-500 to-blue-800 opacity-60"></div>
 

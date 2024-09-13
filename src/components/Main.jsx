@@ -19,7 +19,7 @@ import VerifiedIcon from '@mui/icons-material/Verified';
 import MicIcon from '@mui/icons-material/Mic';
 function Main() {
   return (
-    <div className="relative h-screen p-6 bg-[url('/test.jpg')] bg-cover bg-center ">
+    <div className="relative h-screen p-6 bg-[url('/assets/test.jpg')] bg-cover bg-center ">
       {/* Background image overlay to create opacity effect */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-black to-blue-900 opacity-80"></div>
       
